@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&family=Outfit:wght@300;400;500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: white;
+}
+body{
+    height: 100%;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Outfit', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 40px;
+    padding: 12px 10px;
+}
+.header-container{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    float: right;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.icon:hover{
+    background-color: rgb(236, 236, 236);
+    border-radius: 50%;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48
+}
+.header-container a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.header-container a:hover{
+    text-decoration: underline;
+}
+.profile{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: url(img/Euryt2.jpg) center center/cover;
+}
+.account-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.account-logo:hover{
+    background-color: rgb(236, 236, 236);
+}
+
+
+
+.google-text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0px;
+}
+.google-text p{
+    font-size: 90px;
+    font-weight: 400;
+}
+.blue{
+    color: #4285f4;
+}
+.red{
+    color: #ea4335;
+}
+.yellow{
+    color: #fbbc05;
+}
+.green{
+    color: #34a853;
+}
+
+
+
+.search-bar{
+    position: relative;
+    margin: 10px auto;
+    display: flex;
+    
+    justify-content: center;
+    padding: 10px;
+}
+input{
+    width: 43%;
+    font-size: 16px;
+    padding: 15px 30px 15px 50px;
+    outline: none;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 50px;
+}
+.fas, .fa-solid{
+    font-size: 16px;
+}
+.fas{
+    position: absolute;
+    top: 26px;
+    left: 405px;
+    padding-left: 5px;
+    color: grey;
+}
+
+
+
+.text-under{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+    row-gap: 20px;
+}
+.text-under button {
+    background-color: rgb(247, 247, 247);
+    padding: 12px 16px;
+    border: 1px solid rgb(247, 247, 247);
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.text-under button:hover{
+    border: 1px solid lightgrey;
+}
+.other-lang a{
+    margin-left: 5px;
+    text-decoration: none;
+}
+.other-lang a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.country{
+    width: 100%;
+    padding: 13px 30px;
+    color: grey;
+    font-size: 15.5px;
+    background-color: rgb(240, 238, 238);
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+.menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 13px 30px;
+    font-size: 15.5px;
+    justify-content: space-between;
+    background-color: rgb(240, 238, 238);
+}
+.menu-1{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(240, 238, 238);
+}
+.menu-2{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(240, 238, 238);
+}
+.menu-1 a, .menu-2 a{
+    color: grey;
+    text-decoration: none;
+    background-color: rgb(240, 238, 238);
+}
+.menu-1 a:hover, .menu-2 a:hover{
+    text-decoration: underline;
+}
